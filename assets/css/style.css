@@ -1,0 +1,16 @@
+/* Custom Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.small-box {
+    transition: transform 0.3s;
+}
+
+.small-box:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+}
